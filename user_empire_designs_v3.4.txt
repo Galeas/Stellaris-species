@@ -17,10 +17,10 @@
 		}
 		name_list="HUM2"
 		gender=not_set
+		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
 		trait="trait_nonadaptive"
 		trait="trait_venerable"
-		trait="trait_decadent"
 		trait="trait_slow_breeders"
 	}
 	name={
@@ -30,7 +30,7 @@
 		key="Эльдари"
 	}
 	authority="auth_dictatorial"
-	government="gov_military_dictatorship"
+	government="gov_elective_monarchy"
 	planet_name={
 		key="Биэль Тан"
 	}
@@ -38,7 +38,7 @@
 	system_name={
 		key="Имларис"
 	}
-	initializer=""
+	initializer="void_dweller_system"
 	graphical_culture="avian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -60,7 +60,7 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Маха"
 			}
 		}
@@ -81,10 +81,10 @@
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_mining_guilds"
 		"civic_nationalistic_zeal"
+		"civic_philosopher_king"
 	}
-	origin="origin_default"
+	origin="origin_void_dwellers"
 }
 "WAAAAAGH!"={
 	key="WAAAAAGH!"
@@ -117,7 +117,7 @@
 		key="WAAAAAGH!"
 	}
 	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
+	government="gov_bandit_kingdom"
 	planet_name={
 		key="Бебак"
 	}
@@ -138,8 +138,8 @@
 			file="circle.dds"
 		}
 		colors={
-			"black"
-			"black"
+			"sick_green"
+			"sick_green"
 			"null"
 			"null"
 		}
@@ -147,7 +147,7 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Газгул"
 			}
 		}
@@ -168,7 +168,7 @@
 	ethic="ethic_fanatic_militarist"
 	civics={
 		"civic_warrior_culture"
-		"civic_cutthroat_politics"
+		"civic_barbaric_despoilers"
 	}
 	origin="origin_default"
 }
@@ -212,7 +212,7 @@
 		key="Zero"
 	}
 	initializer=""
-	graphical_culture="humanoid_01"
+	graphical_culture="nemesis_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
@@ -233,7 +233,7 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Аканабекх"
 			}
 		}
@@ -243,6 +243,7 @@
 		clothes=0
 		ruler_title={
 			key="Фаерон"
+			literal=yes
 		}
 		leader_class="ruler"
 	}
@@ -255,7 +256,7 @@
 		"civic_machine_warbots"
 		"civic_machine_terminator"
 	}
-	origin="origin_default"
+	origin="origin_machine"
 }
 "Тираниды"={
 	key="Тираниды"
@@ -319,7 +320,7 @@
 	ruler={
 		gender=male
 		name={
-			first_name={
+			full_names={
 				key="Шхиззл"
 			}
 		}
@@ -338,10 +339,10 @@
 	spawn_enabled=yes
 	ethic="ethic_gestalt_consciousness"
 	civics={
-		"civic_hive_one_mind"
 		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
 	}
-	origin="origin_default"
+	origin="origin_progenitor_hive"
 }
 "Гегемония Человека"={
 	key="Гегемония Человека"
@@ -404,7 +405,7 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Мейна Гладстон"
 			}
 		}
@@ -428,7 +429,7 @@
 		"civic_distinguished_admiralty"
 		"civic_efficient_bureaucracy"
 	}
-	origin="origin_default"
+	origin="origin_galactic_doorstep"
 }
 "Арбор"={
 	key="Арбор"
@@ -449,6 +450,7 @@
 		}
 		name_list="PLANT4"
 		gender=not_set
+		trait="trait_hive_mind"
 		trait="trait_charismatic"
 		trait="trait_sedentary"
 		trait="trait_plantoid_phototrophic"
@@ -461,8 +463,8 @@
 	adjective={
 		key="Арбор"
 	}
-	authority="auth_oligarchic"
-	government="gov_holy_tribunal"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
 	planet_name={
 		key="Иггдрассиль"
 	}
@@ -492,7 +494,7 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Ирминсулем"
 			}
 		}
@@ -509,13 +511,12 @@
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=yes
-	ethic="ethic_pacifist"
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_gestalt_consciousness"
 	civics={
-		"civic_environmentalist"
-		"civic_exalted_priesthood"
+		"civic_hive_idyllic_bloom"
+		"civic_hive_empath"
 	}
-	origin="origin_default"
+	origin="origin_tree_of_life"
 }
 "Драконисский Суверенитет"={
 	key="Драконисский Суверенитет"
@@ -578,7 +579,7 @@
 	ruler={
 		gender=female
 		name={
-			first_name={
+			full_names={
 				key="Зидлакси"
 			}
 		}
@@ -621,6 +622,7 @@
 		trait="trait_aquatic"
 		trait="trait_intelligent"
 		trait="trait_solitary"
+		trait="trait_quarrelsome"
 	}
 	name={
 		key="Irenic Andari League"
@@ -660,7 +662,7 @@
 	ruler={
 		gender=indeterminable
 		name={
-			first_name={
+			full_names={
 				key="Bloody Beard"
 			}
 		}
@@ -779,11 +781,23 @@
 	ruler={
 		gender=indeterminable
 		name={
-			first_name={
-				key="NECROID2_CHR_Sekh"
-			}
-			second_name={
-				key="NECROID2_CHR_om-Tet"
+			full_names={
+				key="%LEADER_2%"
+				variables={
+					{
+						key="1"
+						value={
+							key="NECROID2_CHR_Sekh"
+						}
+					}
+ {
+						key="2"
+						value={
+							key="NECROID2_CHR_om-Tet"
+						}
+					}
+ 
+				}
 			}
 			use_full_regnal_name=yes
 		}
