@@ -812,8 +812,7 @@
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_gospel_of_the_masses"
 		"civic_death_cult_corporate"
