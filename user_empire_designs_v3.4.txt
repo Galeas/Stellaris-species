@@ -1,18 +1,24 @@
-"Эльдар"={
+"Эльдар"=
+{
 	key="Эльдар"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="Кхейн"
 	}
-	species={
+	species=
+	{
 		class="HUM"
 		portrait="humanoid_05"
-		species_name={
+		species_name=
+		{
 			key="Эльдар"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Эльдар"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Эльдари"
 		}
 		name_list="HUM2"
@@ -23,44 +29,55 @@
 		trait="trait_venerable"
 		trait="trait_slow_breeders"
 	}
-	name={
+	name=
+	{
 		key="Эльдар"
 	}
-	adjective={
+	adjective=
+	{
 		key="Эльдари"
 	}
 	authority="auth_dictatorial"
 	government="gov_elective_monarchy"
-	planet_name={
+	planet_name=
+	{
 		key="Биэль Тан"
 	}
 	planet_class="pc_tropical"
-	system_name={
+	system_name=
+	{
 		key="Имларис"
 	}
 	initializer="void_dweller_system"
 	graphical_culture="avian_01"
 	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="domination"
 			file="domination_17.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="stripes.dds"
 		}
-		colors={
+		colors=
+		{
 			"green"
 			"black"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=female
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Маха"
 			}
 		}
@@ -68,10 +85,11 @@
 		texture=0
 		attachment=2
 		clothes=0
-		ruler_title_female={
+		ruler_title_female=
+		{
 			key="Видящая"
 		}
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -80,27 +98,34 @@
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
+	civics=
+	{
 		"civic_nationalistic_zeal"
 		"civic_philosopher_king"
 	}
 	origin="origin_void_dwellers"
 }
-"WAAAAAGH!"={
+"WAAAAAGH!"=
+{
 	key="WAAAAAGH!"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="WAAGH"
 	}
-	species={
+	species=
+	{
 		class="HUM"
 		portrait="humanoid_hp_12"
-		species_name={
+		species_name=
+		{
 			key="Орк"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Орки"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Орочий"
 		}
 		name_list="MAM1"
@@ -110,44 +135,55 @@
 		trait="trait_enduring"
 		trait="trait_deviants"
 	}
-	name={
+	name=
+	{
 		key="WAAAAAGH!"
 	}
-	adjective={
+	adjective=
+	{
 		key="WAAAAAGH!"
 	}
 	authority="auth_dictatorial"
 	government="gov_bandit_kingdom"
-	planet_name={
+	planet_name=
+	{
 		key="Бебак"
 	}
 	planet_class="pc_savannah"
-	system_name={
+	system_name=
+	{
 		key="Бебакка"
 	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="pirate"
 			file="flag_pirate_5.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="circle.dds"
 		}
-		colors={
+		colors=
+		{
 			"sick_green"
 			"sick_green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=male
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Газгул"
 			}
 		}
@@ -155,10 +191,11 @@
 		texture=1
 		attachment=0
 		clothes=2
-		ruler_title={
+		ruler_title=
+		{
 			key="Да Биг Босс"
 		}
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -166,116 +203,147 @@
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_militarist"
-	civics={
+	civics=
+	{
 		"civic_warrior_culture"
 		"civic_barbaric_despoilers"
 	}
 	origin="origin_default"
 }
-"Некронтир"={
+"Некронтир"=
+{
 	key="Некронтир"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="MACHINE"
 		portrait="sd_hum_robot"
-		species_name={
+		species_name=
+		{
 			key="Некронтир"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Некронтир"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Некронтир"
 		}
 		name_list="MACHINE2"
 		gender=not_set
 		trait="trait_machine_unit"
+		trait="trait_robot_survivor"
 		trait="trait_robot_durable"
 		trait="trait_robot_uncanny"
-		trait="trait_robot_mass_produced"
+		trait="trait_robot_propaganda_machines"
+		trait="trait_robot_history_warbot"
 	}
-	name={
+	name=
+	{
 		key="Некронтир"
 	}
-	adjective={
+	adjective=
+	{
 		key="Некронтир"
 	}
-	authority="auth_machine_intelligence"
-	government="gov_machine_terminator"
-	planet_name={
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	planet_name=
+	{
 		key="Зантрагора"
 	}
 	planet_class="pc_desert"
-	system_name={
+	system_name=
+	{
 		key="Zero"
 	}
 	initializer=""
-	graphical_culture="nemesis_01"
+	graphical_culture="synthetics_01"
 	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="pointy"
 			file="flag_pointy_11.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="stripes.dds"
 		}
-		colors={
+		colors=
+		{
 			"black"
 			"green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
 				key="Аканабекх"
 			}
 		}
 		portrait="sd_hum_robot"
 		texture=3
+		evolution_mask=0
 		attachment=0
 		clothes=0
-		ruler_title={
+		ruler_title=
+		{
 			key="Фаерон"
 			literal=yes
 		}
-		leader_class="ruler"
+		trait="trait_ruler_charismatic"
+		leader_class="commander"
 	}
-	spawn_as_fallen=no
+	spawn_as_fallen=yes
 	ignore_portrait_duplication=no
 	room="personality_slaving_despots_room"
 	spawn_enabled=yes
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_warbots"
-		"civic_machine_terminator"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_individual_machine_warbots"
+		"civic_death_cult"
 	}
-	origin="origin_machine"
+	origin="origin_post_apocalyptic_machines"
 }
-"Тираниды"={
+"Тираниды"=
+{
 	key="Тираниды"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="ART"
 		portrait="art17"
-		species_name={
+		species_name=
+		{
 			key="Тиранид"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Тираниды"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="тиранид"
 		}
-		name_list="HIVE"
+		name_list="ART4"
 		gender=not_set
 		trait="trait_hive_mind"
 		trait="trait_natural_sociologists"
@@ -283,44 +351,55 @@
 		trait="trait_rapid_breeders"
 		trait="trait_repugnant"
 	}
-	name={
+	name=
+	{
 		key="Тираниды"
 	}
-	adjective={
+	adjective=
+	{
 		key="тиранид"
 	}
 	authority="auth_hive_mind"
 	government="gov_devouring_swarm"
-	planet_name={
+	planet_name=
+	{
 		key="Хззласс"
 	}
 	planet_class="pc_tropical"
-	system_name={
+	system_name=
+	{
 		key="Хззласс"
 	}
 	initializer=""
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="zoological"
 			file="flag_zoological_13.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="circle.dds"
 		}
-		colors={
+		colors=
+		{
 			"dark_purple"
 			"purple"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=male
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Шхиззл"
 			}
 		}
@@ -328,37 +407,46 @@
 		texture=2
 		attachment=0
 		clothes=0
-		ruler_title={
+		ruler_title=
+		{
 			key="Тиран Улья"
 		}
-		leader_class="ruler"
+		trait="leader_trait_principled"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_xenophobic_isolationists_room"
 	spawn_enabled=yes
 	ethic="ethic_gestalt_consciousness"
-	civics={
+	civics=
+	{
 		"civic_hive_devouring_swarm"
 		"civic_hive_subspace_ephapse"
 	}
 	origin="origin_progenitor_hive"
 }
-"Гегемония Человека"={
+"Гегемония Человека"=
+{
 	key="Гегемония Человека"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="HUM"
 		portrait="human"
-		species_name={
+		species_name=
+		{
 			key="Человечество"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Люди"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Человеческий"
 		}
 		name_list="HUM4"
@@ -367,45 +455,56 @@
 		trait="trait_industrious"
 		trait="trait_wasteful"
 	}
-	name={
+	name=
+	{
 		key="Гегемония Человека"
 	}
-	adjective={
+	adjective=
+	{
 		key="Человеческий"
 	}
 	authority="auth_oligarchic"
 	government="gov_military_junta"
 	advisor_voice_type="l_english"
-	planet_name={
+	planet_name=
+	{
 		key="Возрождение-Вектор"
 	}
 	planet_class="pc_continental"
-	system_name={
+	system_name=
+	{
 		key="Прайм"
 	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="human"
 			file="flag_human_8.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="pattern_01.dds"
 		}
-		colors={
+		colors=
+		{
 			"light_orange"
 			"red"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=female
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Мейна Гладстон"
 			}
 		}
@@ -413,10 +512,11 @@
 		texture=0
 		attachment=5
 		clothes=2
-		ruler_title_female={
+		ruler_title_female=
+		{
 			key="Секретарь Сената"
 		}
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -425,27 +525,34 @@
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
-	civics={
+	civics=
+	{
 		"civic_distinguished_admiralty"
 		"civic_efficient_bureaucracy"
 	}
 	origin="origin_galactic_doorstep"
 }
-"Арбор"={
+"Арбор"=
+{
 	key="Арбор"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="PLANT"
 		portrait="pla10"
-		species_name={
+		species_name=
+		{
 			key="Иггдрассиль"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Иггдрассиль"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Иггдрассиль"
 		}
 		name_list="PLANT4"
@@ -457,44 +564,55 @@
 		trait="trait_nonadaptive"
 		trait="trait_intelligent"
 	}
-	name={
+	name=
+	{
 		key="Арбор"
 	}
-	adjective={
+	adjective=
+	{
 		key="Арбор"
 	}
 	authority="auth_hive_mind"
 	government="gov_hive_mind"
-	planet_name={
+	planet_name=
+	{
 		key="Иггдрассиль"
 	}
 	planet_class="pc_alpine"
-	system_name={
+	system_name=
+	{
 		key="Иггдрассиль"
 	}
 	initializer=""
 	graphical_culture="plantoid_01"
 	city_graphical_culture="plantoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="ornate"
 			file="flag_ornate_6.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="vertical.dds"
 		}
-		colors={
+		colors=
+		{
 			"yellow"
 			"light_blue"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=female
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Ирминсулем"
 			}
 		}
@@ -502,37 +620,45 @@
 		texture=0
 		attachment=0
 		clothes=0
-		ruler_title={
+		ruler_title=
+		{
 			key="Тис"
 		}
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=yes
 	ethic="ethic_gestalt_consciousness"
-	civics={
+	civics=
+	{
 		"civic_hive_idyllic_bloom"
 		"civic_hive_empath"
 	}
 	origin="origin_tree_of_life"
 }
-"Драконисский Суверенитет"={
+"Драконисский Суверенитет"=
+{
 	key="Драконисский Суверенитет"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="REP"
 		portrait="rep17"
-		species_name={
+		species_name=
+		{
 			key="Драконис"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Драконис"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Драконис"
 		}
 		name_list="REP2"
@@ -542,44 +668,55 @@
 		trait="trait_nonadaptive"
 		trait="trait_thrifty"
 	}
-	name={
+	name=
+	{
 		key="Драконисский Суверенитет"
 	}
-	adjective={
+	adjective=
+	{
 		key="Драконис"
 	}
 	authority="auth_imperial"
 	government="gov_irenic_monarchy"
-	planet_name={
+	planet_name=
+	{
 		key="Цирра"
 	}
 	planet_class="pc_tundra"
-	system_name={
+	system_name=
+	{
 		key="Цир'Дарус"
 	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="spherical"
 			file="flag_spherical_11.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="stripe.dds"
 		}
-		colors={
+		colors=
+		{
 			"purple"
 			"dark_blue"
 			"null"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=female
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Зидлакси"
 			}
 		}
@@ -587,7 +724,7 @@
 		texture=1
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -595,26 +732,33 @@
 	spawn_enabled=yes
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_pacifist"
-	civics={
+	civics=
+	{
 		"civic_inwards_perfection"
 	}
 	origin="origin_default"
 }
-"Irenic Andari League"={
+"Irenic Andari League"=
+{
 	key="Irenic Andari League"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="AQUATIC"
 		portrait="aqu6"
-		species_name={
+		species_name=
+		{
 			key="Andari"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Andarians"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Andari"
 		}
 		name_list="AQUATIC2"
@@ -624,45 +768,56 @@
 		trait="trait_solitary"
 		trait="trait_quarrelsome"
 	}
-	name={
+	name=
+	{
 		key="Irenic Andari League"
 	}
-	adjective={
+	adjective=
+	{
 		key="Andari"
 	}
 	authority="auth_democratic"
 	government="gov_moral_democracy"
 	advisor_voice_type="l_aqu_vir"
-	planet_name={
+	planet_name=
+	{
 		key="Tarcadal"
 	}
 	planet_class="pc_ocean"
-	system_name={
+	system_name=
+	{
 		key="Sidona"
 	}
 	initializer=""
 	graphical_culture="aquatic_01"
 	city_graphical_culture="aquatic_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="zoological"
 			file="flag_zoological_3.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="horizontal_stripe.dds"
 		}
-		colors={
+		colors=
+		{
 			"pink"
 			"light_blue"
 			"black"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=indeterminable
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Bloody Beard"
 			}
 		}
@@ -670,7 +825,7 @@
 		texture=0
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -679,32 +834,42 @@
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
-	civics={
+	civics=
+	{
 		"civic_anglers"
 		"civic_environmentalist"
 	}
 	origin="origin_lost_colony"
 }
-"Церковь Вознесения"={
+"Церковь Вознесения"=
+{
 	key="Церковь Вознесения"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="NECROID"
 		portrait="nec13"
-		species_name={
+		species_name=
+		{
 			key="SPEC_Vhellet"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="SPEC_Vhellet_pl"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="%ADJECTIVE%"
-			variables={
+			variables=
+			{
+				
 				{
 					key="adjective"
-					value={
+					value=
+					{
 						key="SPEC_Vhellet"
 					}
 				}
@@ -719,27 +884,37 @@
 		trait="trait_traditional"
 		trait="trait_solitary"
 	}
-	name={
+	name=
+	{
 		key="Церковь Вознесения"
 		literal=yes
 	}
-	adjective={
+	adjective=
+	{
 		key="%ADJECTIVE%"
-		variables={
+		variables=
+		{
+			
 			{
 				key="adjective"
-				value={
+				value=
+				{
 					key="format.species"
-					variables={
+					variables=
+					{
+						
 						{
 							key="oligarchic_megachurch"
-							value={
+							value=
+							{
 								key="New_Ascensionists"
 							}
 						}
- {
+ 
+						{
 							key="This.GetSpeciesName"
-							value={
+							value=
+							{
 								key="SPEC_Vhellet"
 							}
 						}
@@ -752,47 +927,61 @@
 	}
 	authority="auth_corporate"
 	government="gov_sacrificial_megachurch"
-	planet_name={
+	planet_name=
+	{
 		key="SPEC_Maloqui_planet"
 	}
 	planet_class="pc_arid"
-	system_name={
+	system_name=
+	{
 		key="SPEC_Maloqui_system"
 	}
 	initializer=""
 	graphical_culture="necroid_01"
 	city_graphical_culture="necroid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="necroid"
 			file="necroid_08.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="flag_BG_4.dds"
 		}
-		colors={
+		colors=
+		{
 			"frog_green"
 			"black"
 			"black"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=indeterminable
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="%LEADER_2%"
-				variables={
+				variables=
+				{
+					
 					{
 						key="1"
-						value={
+						value=
+						{
 							key="NECROID2_CHR_Sekh"
 						}
 					}
- {
+ 
+					{
 						key="2"
-						value={
+						value=
+						{
 							key="NECROID2_CHR_om-Tet"
 						}
 					}
@@ -805,7 +994,7 @@
 		texture=2
 		attachment=0
 		clothes=4
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -813,29 +1002,36 @@
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_spiritualist"
-	civics={
+	civics=
+	{
 		"civic_gospel_of_the_masses"
 		"civic_death_cult_corporate"
 	}
 	origin="origin_star_slingshot"
 }
-"Черка Корп"={
+"Черка Корп"=
+{
 	key="Черка Корп"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="AVI"
 		portrait="avi2"
-		species_name={
+		species_name=
+		{
 			key="Черка"
 			literal=yes
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Черки"
 			literal=yes
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="Черк"
 			literal=yes
 		}
@@ -846,33 +1042,45 @@
 		trait="trait_conservational"
 		trait="trait_communal"
 	}
-	name={
+	name=
+	{
 		key="Черка Корп"
 		literal=yes
 	}
-	adjective={
+	adjective=
+	{
 		key="%ADJECTIVE%"
-		variables={
+		variables=
+		{
+			
 			{
 				key="adjective"
-				value={
+				value=
+				{
 					key="format.species"
-					variables={
+					variables=
+					{
+						
 						{
 							key="subversive_cult_2"
-							value={
+							value=
+							{
 								key="Fellowship"
 							}
 						}
- {
+ 
+						{
 							key="This.Capital.GetName"
-							value={
+							value=
+							{
 								key="Чррк"
 							}
 						}
- {
+ 
+						{
 							key="This.GetSpeciesName"
-							value={
+							value=
+							{
 								key="Черка"
 							}
 						}
@@ -886,48 +1094,62 @@
 	authority="auth_corporate"
 	government="gov_criminal_syndicate"
 	advisor_voice_type="l_slick_corp"
-	planet_name={
+	planet_name=
+	{
 		key="Чррк"
 		literal=yes
 	}
 	planet_class="pc_savannah"
-	system_name={
+	system_name=
+	{
 		key="SPEC_Hiran_system"
 	}
 	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="avian_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="zoological"
 			file="flag_zoological_6.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="flag_BG_45.dds"
 		}
-		colors={
+		colors=
+		{
 			"red"
 			"purple"
 			"black"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=male
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="%LEADER_2%"
-				variables={
+				variables=
+				{
+					
 					{
 						key="1"
-						value={
+						value=
+						{
 							key="AVI4_CHR_Artiko"
 						}
 					}
- {
+ 
+					{
 						key="2"
-						value={
+						value=
+						{
 							key="AVI4_CHR_Nahua"
 						}
 					}
@@ -940,7 +1162,7 @@
 		texture=4
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -949,32 +1171,42 @@
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
-	civics={
+	civics=
+	{
 		"civic_criminal_heritage"
 		"civic_indentured_assets"
 	}
 	origin="origin_doomsday"
 }
-"State of Зефония"={
+"State of Зефония"=
+{
 	key="State of Зефония"
-	ship_prefix={
+	ship_prefix=
+	{
 		key="ISS"
 	}
-	species={
+	species=
+	{
 		class="TOX"
 		portrait="tox1"
-		species_name={
+		species_name=
+		{
 			key="SPEC_Cyanidite"
 		}
-		species_plural={
+		species_plural=
+		{
 			key="SPEC_Cyanidite_pl"
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="%ADJECTIVE%"
-			variables={
+			variables=
+			{
+				
 				{
 					key="adjective"
-					value={
+					value=
+					{
 						key="SPEC_Cyanidite"
 					}
 				}
@@ -988,41 +1220,56 @@
 		trait="trait_unruly"
 		trait="trait_incubator"
 	}
-	name={
+	name=
+	{
 		key="format.dem_spi.1"
-		variables={
+		variables=
+		{
+			
 			{
 				key="democratic_spi"
-				value={
+				value=
+				{
 					key="State"
 				}
 			}
- {
+ 
+			{
 				key="This.Capital.System.GetName"
-				value={
+				value=
+				{
 					key="SPEC_ofoxxer_system"
 				}
 			}
  
 		}
 	}
-	adjective={
+	adjective=
+	{
 		key="%ADJECTIVE%"
-		variables={
+		variables=
+		{
+			
 			{
 				key="adjective"
-				value={
+				value=
+				{
 					key="format.home_system"
-					variables={
+					variables=
+					{
+						
 						{
 							key="democratic_spi"
-							value={
+							value=
+							{
 								key="State"
 							}
 						}
- {
+ 
+						{
 							key="This.Capital.System.GetName"
-							value={
+							value=
+							{
 								key="SPEC_ofoxxer_system"
 							}
 						}
@@ -1035,47 +1282,61 @@
 	}
 	authority="auth_democratic"
 	government="gov_theocratic_republic"
-	planet_name={
+	planet_name=
+	{
 		key="SPEC_ofoxxer_planet"
 	}
 	planet_class="pc_arctic"
-	system_name={
+	system_name=
+	{
 		key="SPEC_ofoxxer_system"
 	}
 	initializer="toxic_knights_start"
 	graphical_culture="toxoid_01"
 	city_graphical_culture="toxoid_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="toxoid"
 			file="toxoid_12.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="flag_BG_55.dds"
 		}
-		colors={
+		colors=
+		{
 			"teal"
 			"red"
 			"black"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=female
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="%LEADER_2%"
-				variables={
+				variables=
+				{
+					
 					{
 						key="1"
-						value={
+						value=
+						{
 							key="TOX3_CHA_Orvani"
 						}
 					}
- {
+ 
+					{
 						key="2"
-						value={
+						value=
+						{
 							key="TOX3_CHA_Myenpaa"
 						}
 					}
@@ -1088,7 +1349,7 @@
 		texture=5
 		attachment=0
 		clothes=0
-		leader_class="ruler"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1096,9 +1357,279 @@
 	spawn_enabled=yes
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_spiritualist"
-	civics={
+	civics=
+	{
 		"civic_scavengers"
 		"civic_memorialist"
 	}
 	origin="origin_toxic_knights"
+}
+"Кусократия"=
+{
+	key="Кусократия"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="REP"
+		portrait="cyb4"
+		species_name=
+		{
+			key="Кусит"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Куситы"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Куситский"
+			literal=yes
+		}
+		name_list="REP2"
+		gender=male
+		trait="trait_latent_psionic"
+		trait="trait_intelligent"
+		trait="trait_natural_sociologists"
+		trait="trait_weak"
+		trait="trait_incubator"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="Кусократия"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Кусократический"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="Кусинак"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Кус"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="imperial"
+			file="imperial_06.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_39.dds"
+		}
+		colors=
+		{
+			"shadow_purple"
+			"wave_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="REP2_CHR_Mirox"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb4"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_hyperspace_specialty"
+		"civic_dark_consortium"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"Мор-Думог"=
+{
+	key="Мор-Думог"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_11"
+		species_name=
+		{
+			key="Двергар"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Двергары"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Двергар"
+			literal=yes
+		}
+		name_list="LITHOID4"
+		gender=male
+		trait="trait_cave_dweller"
+		trait="trait_industrious"
+		trait="trait_nonadaptive"
+		trait="trait_quarrelsome"
+		trait="trait_very_strong"
+	}
+	name=
+	{
+		key="Мор-Думог"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Мор-Думог"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name=
+	{
+		key="SPEC_Tavurite_planet"
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="SPEC_Tavurite_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_48.dds"
+		}
+		colors=
+		{
+			"red"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="LITHOID4_CHR_Glimm"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="LITHOID4_CHR_Goreggnock"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_hp_11"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_mining_guilds"
+		"civic_eager_explorers"
+	}
+	origin="origin_subterranean"
 }
